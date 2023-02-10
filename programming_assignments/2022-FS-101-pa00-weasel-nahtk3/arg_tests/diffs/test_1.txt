@@ -1,0 +1,1 @@
+[{"genome": "Methinks it is like a weasel", "fitness": 28}, {"genome": "Methinks it is like a we   <

@@ -1,0 +1,206 @@
+												   >	**********************************************************************
+												   >	File "weasel.py", line 278, in __main__.evaluate_group
+												   >	Failed example:
+												   >	    evaluate_group(objective=objective, individuals=pop)
+												   >	Expected nothing
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 279, in __main__.evaluate_group
+												   >	Failed example:
+												   >	    pop[0]
+												   >	Expected:
+												   >	    {'genome': 'This assignment is work!', 'fitness': 20}
+												   >	Got:
+												   >	    {'genome': 'This assignment is work!', 'fitness': 0}
+												   >	**********************************************************************
+												   >	File "weasel.py", line 281, in __main__.evaluate_group
+												   >	Failed example:
+												   >	    pop[1]
+												   >	Expected:
+												   >	    {'genome': 'This assignment is hard!', 'fitness': 21}
+												   >	Got:
+												   >	    {'genome': 'This assignment is hard!', 'fitness': 0}
+												   >	**********************************************************************
+												   >	File "weasel.py", line 250, in __main__.evaluate_individual
+												   >	Failed example:
+												   >	    evaluate_individual(objective=objective, individual=i1)
+												   >	Expected nothing
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 251, in __main__.evaluate_individual
+												   >	Failed example:
+												   >	    evaluate_individual(objective=objective, individual=i2)
+												   >	Expected nothing
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 252, in __main__.evaluate_individual
+												   >	Failed example:
+												   >	    i1
+												   >	Expected:
+												   >	    {'genome': 'This assignment is hard!', 'fitness': 21}
+												   >	Got:
+												   >	    {'genome': 'This assignment is hard!', 'fitness': 0}
+												   >	**********************************************************************
+												   >	File "weasel.py", line 254, in __main__.evaluate_individual
+												   >	Failed example:
+												   >	    i2
+												   >	Expected:
+												   >	    {'genome': 'This assignment is good!', 'fitness': 20}
+												   >	Got:
+												   >	    {'genome': 'This assignment is good!', 'fitness': 0}
+												   >	**********************************************************************
+												   >	File "weasel.py", line 225, in __main__.mutate_group
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        mutate_group(pop, 0.3)
+												   >	Expected:
+												   >	    [{'genome': 'Eriis BfGat', 'fitness': 0}, {'genome': 'Greaa BsWEg', 'fitness': 0}]
+												   >	    [{'genome': 'ECcis great', 'fitness': 0}, {'genome': 'Groat is Ew', 'fitness': 0}]
+												   >	    [{'genome': 'rC OUDgreat', 'fitness': 0}, {'genome': 'GrcatKis EC', 'fitness': 0}]
+												   >	    [{'genome': 'Ep is greFd', 'fitness': 0}, {'genome': 'Gkeay iJ UI', 'fitness': 0}]
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 198, in __main__.mutate_individual
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        mutate_individual(ind, 0.3)
+												   >	Expected:
+												   >	    {'genome': 'Eriis BfG', 'fitness': 0}
+												   >	    {'genome': 'EC is auB', 'fitness': 0}
+												   >	    {'genome': 'EW gs cun', 'fitness': 0}
+												   >	    {'genome': 'EC is fuo', 'fitness': 0}
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 330, in __main__.parent_select
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        parent_select(pop, 2)
+												   >	Expected:
+												   >	    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+												   >	    [{'genome': 'gene', 'fitness': 5}, {'genome': 'gene', 'fitness': 5}]
+												   >	    [{'genome': 'heme', 'fitness': 4}, {'genome': 'meme', 'fitness': 6}]
+												   >	    [{'genome': 'heme', 'fitness': 4}, {'genome': 'gene', 'fitness': 5}]
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 305, in __main__.rank_group
+												   >	Failed example:
+												   >	    rank_group(pop)
+												   >	Expected nothing
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 306, in __main__.rank_group
+												   >	Failed example:
+												   >	    pop
+												   >	Expected:
+												   >	    [{'genome': 'This class is motivating!!', 'fitness': 6}, {'genome': 'Zhis glass it isabeesti
+												   >	Got:
+												   >	    [{'genome': 'Zhis glass it isabeesting!', 'fitness': 2}, {'genome': 'This class is motivatin
+												   >	**********************************************************************
+												   >	File "weasel.py", line 173, in __main__.recombine_group
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        recombine_group(pop, 0.8)
+												   >	Expected:
+												   >	    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+												   >	    [{'genome': 'EC at is EC', 'fitness': 0}, {'genome': 'Greis great', 'fitness': 0}]
+												   >	    [{'genome': 'Ereat is EC', 'fitness': 0}, {'genome': 'GC is great', 'fitness': 0}]
+												   >	    [{'genome': 'EC is gr EC', 'fitness': 0}, {'genome': 'Great iseat', 'fitness': 0}]
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	File "weasel.py", line 115, in __main__.recombine_pair
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        recombine_pair(i1, i2)
+												   >	Expected:
+												   >	    [{'genome': 'EC is greaC', 'fitness': 0}, {'genome': 'Great is Et', 'fitness': 0}]
+												   >	    [{'genome': 'Ereat is EC', 'fitness': 0}, {'genome': 'GC is great', 'fitness': 0}]
+												   >	    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+												   >	    [{'genome': 'EC it is EC', 'fitness': 0}, {'genome': 'Greas great', 'fitness': 0}]
+												   >	Got:
+												   >	    Great is EC
+												   >	    EC is great
+												   >	    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+												   >	    EC as great
+												   >	    Greit is EC
+												   >	    [{'genome': 'EC as great', 'fitness': 0}, {'genome': 'Greit is EC', 'fitness': 0}]
+												   >	    Great is EC
+												   >	    EC is great
+												   >	    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+												   >	    Great is EC
+												   >	    EC is great
+												   >	    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+												   >	**********************************************************************
+												   >	File "weasel.py", line 358, in __main__.survivor_select
+												   >	Failed example:
+												   >	    for _ in range(4):
+												   >	        survivor_select(pop, 2)
+												   >	Expected:
+												   >	    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+												   >	    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+												   >	    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+												   >	    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+												   >	Got:
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	    Delete this and write your code
+												   >	**********************************************************************
+												   >	9 items had failures:
+												   >	   3 of   9 in __main__.evaluate_group
+												   >	   4 of   7 in __main__.evaluate_individual
+												   >	   1 of   6 in __main__.mutate_group
+												   >	   1 of   4 in __main__.mutate_individual
+												   >	   1 of   7 in __main__.parent_select
+												   >	   2 of   8 in __main__.rank_group
+												   >	   1 of   6 in __main__.recombine_group
+												   >	   1 of   5 in __main__.recombine_pair
+												   >	   1 of   7 in __main__.survivor_select
+												   >	***Test Failed*** 15 failures.
+What string would you like to evolve?									What string would you like to evolve?
+How many individuals would you like to evolve?								How many individuals would you like to evolve?
+Iteration number 1 with best individual {'genome': 'YIxHGrkqVBBxMxtlnrXFmoijesYg', 'fitness': 3}   |	Delete this and write your code
+Iteration number 2 with best individual {'genome': 'pkAfinzdkyayqYYlZieTmDcsAcYm', 'fitness': 4}   |	Delete this and write your code
+Iteration number 4 with best individual {'genome': 'pkAfinzdsIKWaMuFbhnZtMdp f n', 'fitness': 5}   |	Delete this and write your code
+Iteration number 7 with best individual {'genome': 'YIUHinzdGIuiaMuvbhOZSCSY f n', 'fitness': 6}   |	Delete this and write your code
+Iteration number 8 with best individual {'genome': 'MIgHMtkq sgsIYYrkDfsbQOy f n', 'fitness': 7}   |	Delete this and write your code
+Iteration number 13 with best individual {'genome': 'PeSWGOkI vRZLYMrkThmmMnz f n', 'fitness': 8   |	Delete this and write your code
+Iteration number 14 with best individual {'genome': 'SefPGwkq YLwsVbtPvHumyisFf n', 'fitness': 9   <
+Iteration number 17 with best individual {'genome': 'SeLPinzgwIIiCMvrirtFmoij ftn', 'fitness': 1   <
+Iteration number 20 with best individual {'genome': 'MetHinzTHICiRxtriKxFmzij TIn', 'fitness': 1   <
+Iteration number 23 with best individual {'genome': 'MeaJinbTHtbiR ErnlNImKijdfIn', 'fitness': 1   <
+Iteration number 26 with best individual {'genome': 'MetxinkA FAMD hrnrXhLoij fVn', 'fitness': 1   <
+Iteration number 29 with best individual {'genome': 'MetlinzTEUuiRxtriYjFm is fKn', 'fitness': 1   <
+Iteration number 30 with best individual {'genome': 'MethinkA Fuix KrnFEtmKiY IKn', 'fitness': 1   <
+Iteration number 33 with best individual {'genome': 'MethinkA Fuix KrnFEtmKiY f n', 'fitness': 1   <
+Iteration number 39 with best individual {'genome': 'EetiinkS tbGs srdlNFm is fYn', 'fitness': 1   <
+Iteration number 42 with best individual {'genome': 'MeUhinkp tbisdsriBjFm is fYn', 'fitness': 1   <
+Iteration number 46 with best individual {'genome': 'MethinkS tbie trwYjgm is fYn', 'fitness': 1   <
+Iteration number 49 with best individual {'genome': 'MethinkC tbis srwYjgm is fYn', 'fitness': 2   <
+Iteration number 54 with best individual {'genome': 'MethinkS tbis srXlrtm is f n', 'fitness': 2   <
+Iteration number 62 with best individual {'genome': 'MethinkC tbis srolrtm is fYn', 'fitness': 2   <
+Iteration number 72 with best individual {'genome': 'MethinkC tbis srolrtm is fun', 'fitness': 2   <
+Iteration number 78 with best individual {'genome': 'MethinkA this srolrtm is fun', 'fitness': 2   <
+Iteration number 100 with best individual {'genome': 'MethinkC this kroLram is fun', 'fitness':    <
+Iteration number 109 with best individual {'genome': 'MethinkS this proLram is fun', 'fitness':    <
+Iteration number 116 with best individual {'genome': 'MethinkS this program is fun', 'fitness':    <
+Iteration number 147 with best individual {'genome': 'Methinks this program is fun', 'fitness':    <
